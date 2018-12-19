@@ -11,7 +11,7 @@ InsertionSort::~InsertionSort()
 {
 }
 
-void InsertionSort::insertion_sorted(int arr[], int size)
+void InsertionSort::insertion_sorter(int arr[], int size)
 {
 	for (int index = 1; index < size; index++)
 	{
@@ -33,9 +33,9 @@ void InsertionSort::insertion_sorted(int arr[], int size)
 	
 }
 
-void InsertionSort::insertion_sorter_vector(vector<int> arr, int size)
+void InsertionSort::insertion_sorter_vector(vector<int> arr)
 {
-	for (int index = 1; index < size; index++)
+	for (int index = 1; index < arr.size(); index++)
 	{
 		int key = arr[index];
 		int index1 = index - 1;
@@ -46,7 +46,7 @@ void InsertionSort::insertion_sorter_vector(vector<int> arr, int size)
 		}
 		arr[index1 + 1] = key;
 
-		for (int index2 = 0; index2 < size; index2++)
+		for (int index2 = 0; index2 < arr.size(); index2++)
 		{
 			cout << arr[index2] << " ";
 		}

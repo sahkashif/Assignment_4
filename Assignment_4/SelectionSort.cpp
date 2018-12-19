@@ -43,13 +43,13 @@ void SelectionSort::SelectionSorter(int arr[],int size)
 	
 }
 
-void SelectionSort::SelectionSorterVector(vector<int> arr, int size)
+void SelectionSort::SelectionSorterVector(vector<int> arr)
 {
 	
-	for (int index = 0; index < size - 1; index++)
+	for (int index = 0; index < arr.size() - 1; index++)
 	{
 		int minimum = index;
-		for (int index1 = index + 1; index1 < size; index1++)
+		for (int index1 = index + 1; index1 < arr.size(); index1++)
 		{
 			if (arr[index1] < arr[minimum])
 			{

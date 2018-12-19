@@ -11,6 +11,6 @@ public:
 	~SelectionSort();
 	void swap(int &first, int &seceond);
 	void SelectionSorter(int arr[],int size);
-	void SelectionSorterVector(vector<int> arr, int size);
+	void SelectionSorterVector(vector<int> arr);
 };
 
