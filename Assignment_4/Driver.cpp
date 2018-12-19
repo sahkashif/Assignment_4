@@ -15,6 +15,7 @@ int main()
 	//s.SelectionSorterVector(arr, 10);
 	//i.insertion_sorter(arr1, 10);
 	//i.insertion_sorter_vector(arr);
-	b.bullble_sorter(arr1, 10);
+	//b.bullble_sorter(arr1, 10);
+	b.bubble_sorter_vector(arr);
 }
 
