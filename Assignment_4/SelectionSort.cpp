@@ -32,7 +32,7 @@ void SelectionSort::SelectionSorter(int arr[],int size)
 			}
 		}
 		swap(arr[index], arr[minimum]);
-		for (int index2 = 0; index2 < 10; index2++)
+		for (int index2 = 0; index2 < size; index2++)
 		{
 			cout << arr[index2] << " ";
 		}
@@ -61,7 +61,7 @@ void SelectionSort::SelectionSorterVector(vector<int> arr)
 
 		swap(arr[index], arr[minimum]);
 
-		for (int index2 = 0; index2 < 10; index2++)
+		for (int index2 = 0; index2 < arr.size(); index2++)
 		{
 			cout << arr[index2] << " ";
 		}
